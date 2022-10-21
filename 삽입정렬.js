@@ -1,5 +1,6 @@
 // ! 삽입 정렬은 한번에 하나의 항목을 올바른 위치에 삽입해서
 // ! 배열의 정렬된 부분을 점진적으로 구축하는 정렬
+// ! 삽입 정렬은 거의 정렬된 배열에서 좋은 효율
 
 function insertionSort(arr) {
   for (i = 1; i < arr.length; i++) {
@@ -10,6 +11,8 @@ function insertionSort(arr) {
     }
     arr[j + 1] = value;
   }
+  const b = [1, 2];
+  b.for;
   return arr;
 }
 
