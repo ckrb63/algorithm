@@ -17,8 +17,8 @@
 */
 
 function solution(n, m, arr) {
-  let lt,
-    rt,
+  let lt = 0,
+    rt = 0,
     count = 0;
   let sum = arr[0];
   while (rt < n) {
